@@ -1,0 +1,77 @@
+.homePage{
+    text-align: center;    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 700px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form {
+   text-align: center;
+}
+label {
+    text-decoration: solid;
+    text-indent: 10px;
+}
+button[type=submit]{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: aquamarine;
+    margin: 10px;
+    width: 15%;
+    border-width: 5px;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    
+}
+button[type=submit]:hover{
+    border-color: red;
+    border-width: 7px;
+}
+input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+    box-sizing: border-box;
+    width: 15%;
+    border-radius: 5%;
+    background-color: aquamarine;
+    color: black;
+    outline: none;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    
+}
+
+input:focus{
+    border-width: 5px;
+
+}
+input[type=range] {
+    -webkit-appearance: none;
+    background-color: white;
+  }
+input[type=range]:focus {
+    border-width: 5px;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    height: 8px;
+    cursor: pointer;
+    
+    background: aquamarine;
+    border-radius: 1px;
+    border: 0.2px solid #010101;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: black;
+}
+
+input[type=range]::-webkit-slider-thumb {   
+    height: 36px;
+    width: 16px;
+    width: 20px; 
+    height: 30px;
+    background: url('./public/images/money.png') no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -12px;
+}
